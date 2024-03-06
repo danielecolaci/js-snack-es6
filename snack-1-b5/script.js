@@ -7,7 +7,7 @@ const zucchine = [
     { variety: 'Zucchina crookneck', weight: 120, lenght: 20 },
     { variety: 'Zucchina rampicante', weight: 230, lenght: 12 },
     { variety: 'Zucchina verde', weight: 300, lenght: 14 },
-    { variety: 'Zucchina bianca', weight: 190, lenght: 16 },
+    { variety: 'Zucchina bianca', weight: 190, lenght: 10 },
     { variety: 'Zucchina gialla', weight: 110, lenght: 17 },
     { variety: 'Zucchina tonda', weight: 240, lenght: 11 },
     { variety: 'Zucchina striata', weight: 210, lenght: 15 },
