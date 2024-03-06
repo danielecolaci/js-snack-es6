@@ -44,7 +44,15 @@ const tables = footballTeams.sort(function (a, b) {
 })
 /* console.log(tables); */
 
-//Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e punti e stampiamo tutto in console e in pagina.
+//Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e punti e stampiamo tutto in console.
 
 const tablesTeamsPoints = tables.map(({ name, points }) => ({ name, points }));
 console.log(tablesTeamsPoints);
+
+//Stampo in pagina la classifica
+
+const markupTable = document.getElementById('table');
+
+tablesTeamsPoints.forEach(team => {
+    markupTable.insertAdjacentHTML('beforeend', `<tr><td>${team.name}</td><td>${team.points}</td></tr>`);
+})
